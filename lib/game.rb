@@ -9,7 +9,7 @@ class Game
     @player2 = Player.new(name2, "O")
     @board = Board.new
   end
-  
+
   def play
     loop do
       @board.display_board
